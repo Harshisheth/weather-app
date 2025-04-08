@@ -3,7 +3,7 @@ from flask import Flask,request,render_template
 app=Flask(__name__)
 #firstly api documentation ma apelu j hase ane postman ma run krine jovani pehla
 def fetch_weather_data(city):
-    API_KEY ="92c00114795a587be7b92763abf11042"
+    API_KEY ="add_your_api_key"
     url=f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     
     try:
